@@ -42,6 +42,7 @@ public class EstudianteDistancia extends Estudiante{
         return matriculaDistancia;
     }
     
+    @Override
     public String toString(){
         String cadenaFinal = String.format("%s", super.toString());
         

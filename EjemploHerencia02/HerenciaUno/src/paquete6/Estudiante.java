@@ -3,10 +3,10 @@ package paquete6;
 
 public class Estudiante {
 
-    private String nombresEstudiante;
-    private String apellidosEstudiante;
-    private String identificacionEstudiante;
-    private int edadEstudiante;
+    protected String nombresEstudiante;
+    protected String apellidosEstudiante;
+    protected String identificacionEstudiante;
+    protected int edadEstudiante;
     
     
     public Estudiante(String n, String a, String iden, int ed){

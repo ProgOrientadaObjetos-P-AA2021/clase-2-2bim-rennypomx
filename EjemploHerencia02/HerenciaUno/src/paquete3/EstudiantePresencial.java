@@ -7,8 +7,8 @@ public class EstudiantePresencial extends Estudiante{
     double costoCredito;
     double matriculaPresencial;
     
-    public EstudiantePresencial(String n, String ap, String iden, int e){
-        super(n, ap, iden, e);
+    public EstudiantePresencial(String n, String ap, String iden, int ed){
+        super(n, ap, iden, ed);
     }
     
     //  Métodos establecer y calcular para los datos o atributos de la clase

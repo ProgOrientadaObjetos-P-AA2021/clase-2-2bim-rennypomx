@@ -77,7 +77,7 @@ public class EjecutaEstudiante01 {
         // los valores que se necesite en pantalla
         // Imprimir:
         
-        System.out.println("Datos del estudiante Presencial");
+        System.out.printf("Datos del estudiante Presencial");
         
         System.out.printf("Nombre: %s\n",
                 estudianteP.obtenerNombresEstudiante());
